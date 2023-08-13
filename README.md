@@ -1,4 +1,3 @@
-# mahsaashouri.github.io
 
 ## Academic positions
 
