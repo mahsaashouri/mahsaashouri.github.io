@@ -27,6 +27,14 @@
 
     - Thesis: Bayesian inference for non-Gaussian Ornstein-Uhlenbeck stochastic volatility processes
 
+## Research interests
+
+- Time series forecasting and time series clustering
+- Data mining, predictive analytics, and business analytics
+- Big data analysis 
+- Biostatistics
+
+
 - B.Sc. - 2002 - 2006  
   - Department of Mathematics and Statistics, Isfahan University of Technology, Iran.
 
