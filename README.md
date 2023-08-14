@@ -1,4 +1,6 @@
 
+# Mahsa Ashouri
+
 ## Academic positions
 
 - Postdoctoral Fellow: September 2022 - present
@@ -42,7 +44,7 @@
 
 - Fast forecast reconciliation using linear models, <em>Journal of Computational and  Graphical Statistics (JCGS)<em> - Jan 2022, 31(1):263-82 
   - Available at: [Fast Forecast Reconciliation](https://www.tandfonline.com/doi/full/10.1080/10618600.2021.1939038)
-      - The Binder reproducible results are available at: [AUS-Wiki](https://github.com/mahsaashouri/AUS-Wiki-Binder)
+      - The Binder reproducible tool is available at: [AUS-Wiki](https://github.com/mahsaashouri/AUS-Wiki-Binder)
         
       
 -  Tree-based methods for clustering time series using domain-relevant attributes, <em>Journal of Business  Analytics (Taylor & Francis Online)<em>, Vol. 2, NO. 1, Jul 2019, pp. 1–23. 
