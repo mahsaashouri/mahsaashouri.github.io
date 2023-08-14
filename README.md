@@ -56,6 +56,17 @@
 - Interactive tool for clustering and forecasting patterns of Taiwan COVID-19 spread, <em>PLOS One<em>, Jun 2022, 17(6):e0265477.
     - Available at: [COVID-19 Interactive Tool](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0265477)
 
+## Conference proceedings
+
+- Forecasting Daily Accommodation Occupancy for Supply Preparation by a Sharing Economy Platform, <em>2019 IEEE 5th International Conference on Big Data Intelligence and Computing<em>, Nov 2019, Kaohsiung, Taiwan.
+    - Available at: [Forecasting Daily Accommodation](https://conferences.computer.org/datacom/2019/pdfs/DataCom2019-3MYdIPKpqxiurNWZaDmspf/7roMDUSl0xEvNEjYtW5odN/6RHduX0lf1C2e2J0PnC1Xt.pdf)
+
+- A deep learning approach to bank direct marketing, <em>Proceedings of INFORMS International Conference<em>, 17-20 June 2018, Taipei, Taiwan.
+    - Available at: [Deep Learning Bank Marketing](https://www.semanticscholar.org/paper/A-Deep-Learning-Approach-To-Bank-Direct-Marketing-Hsu-Chen/096fd7951a52bc580115bc3e6e465528891de54a)
+ 
+- A Leading Author Model for the Popularity Effect on Scientific Collaboration. <em>In International Conference on Complex Networks and Their Applications<em> (pp. 424-437). Springer, Cham, November 2021, online conference.
+    - Available at: [Leading Author Model](https://link.springer.com/chapter/10.1007/978-3-030-93409-5_36)
+
 ## In-progress papers
 
 - An interactive clustering-based visualization tool for air quality data analysis, submitted.
@@ -67,7 +78,7 @@
 ## Working papers
 
 
-- Generalized Bayesian additive regression trees for restricted mean survival time prediction, working paper. 
+- Generalized bayesian additive regression trees for restricted mean survival time prediction, working paper. 
 
 - Robust updating of a risk prediction model by integrating external ranking information, working paper.
 
