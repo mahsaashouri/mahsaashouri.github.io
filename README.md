@@ -15,7 +15,6 @@
 
   - Institute of Statistical Science, Academia Sinica, Taiwan.
 
-
 ##  Education
 
 - PhD -  2015 - 2019
