@@ -1,6 +1,12 @@
 
 # Mahsa Ashouri
 
+<mashouri@umich.edu>
+
+[GitHub](https://github.com/mahsaashouri)
+
+[Google Scholar](https://scholar.google.com/citations?user=PmGoK04AAAAJ&hl=en)
+
 ## Academic positions
 
 - Postdoctoral Fellow: September 2022 - present
