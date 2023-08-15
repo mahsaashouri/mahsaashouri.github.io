@@ -79,15 +79,15 @@
 ## Working papers
 
 
-- Generalized bayesian additive regression trees for restricted mean survival time prediction, working paper. 
+- Generalized bayesian additive regression trees for restricted mean survival time prediction. 
 
-- Robust updating of a risk prediction model by integrating external ranking information, working paper.
+- Robust updating of a risk prediction model by integrating external ranking information.
 
-- New reconciliation approach for forecasting network flow: a case study on Wikipedia clickstream dataset, working paper.
+- New reconciliation approach for forecasting network flow: a case study on Wikipedia clickstream dataset.
 
-- Finding the best forecasting method for hierarchical and grouped structures, working paper. 
+- Finding the best forecasting method for hierarchical and grouped structures.
 
-- A leading author model for the popularity effect on scientific collaboration, working paper.
+- A leading author model for the popularity effect on scientific collaboration.
 
 ## Teaching
 
