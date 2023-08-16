@@ -95,4 +95,17 @@
 
 - June - September 2023, Applied regression (graduate-level ), Department of Biostatistics, School of Public Health, University of Michigan.
 
+## Certicates
+
+- Postdoctoral short course on college teaching in STEM, Rackham school of graduate studies and the center for research on learning and teaching (CRLT) at the University of Michigan, April 10th, 2023.
+
+## Research internships and workshops
+
+- July 2018 - October 2018, research visit under Rob J Hyndman's supervision, Department of Econometrics and Business Statistics, Monash University, VIC, Australia.
+  
+- January 2016 - February 2016,  research visit under Smarajit Bose's supervision, Indian Statistical Institute, Kolkata, India.
+
+- February 12-15, 2018, Analyzing large collections of time series, Shonan meeting, National Institute of Informatics, Tokyo, Japan.
+
+
 
