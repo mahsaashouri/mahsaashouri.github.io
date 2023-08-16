@@ -101,7 +101,7 @@
 
 ## Research internships and workshops
 
-- July 2018 - October 2018, research visit under the supervision of Professor Rob J Hyndman, Department of Econometrics and Business Statistics, Monash University, VIC, Australia.
+- July 2018 - October 2018, research visit under the supervision of professor Rob J Hyndman, Department of Econometrics and Business Statistics, Monash University, VIC, Australia.
   
 - January 2016 - February 2016,  research visit under the supervision of professor Smarajit Bose, Indian Statistical Institute, Kolkata, India.
 
