@@ -19,7 +19,7 @@
 
 ##  Education
 
-- PhD -  2015 - 2019
+- PhD -  2015 - 2020
   - Institute of Service Science, National Tsing Hua University, Taiwan.
 
     - Thesis: Forecasting and clustering large collections of time series
@@ -93,7 +93,7 @@
 
 ## Teaching
 
-- June - September 2023, Applied regression (graduate-level ), Department of Biostatistics, School of Public Health, University of Michigan.
+- June - September 2023, Applied regression (graduate-level), Department of Biostatistics, School of Public Health, University of Michigan.
 
 ## Certicates
 
