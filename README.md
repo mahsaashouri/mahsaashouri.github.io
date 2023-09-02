@@ -9,7 +9,7 @@
 
   - Department of Biostatistics, University of Michigan, US.
 
-- Adjunct Lecturer: June 2023 - present
+- Adjunct Lecturer: June 2023 - September 2023
 
   - Department of Biostatistics, University of Michigan, US.
 
@@ -43,45 +43,45 @@
 
 ## Journal papers 
 
-- Fast forecast reconciliation using linear models, <em>Journal of Computational and  Graphical Statistics (JCGS)<em> - Jan 2022, 31(1):263-82 
-  - Available at: [Fast Forecast Reconciliation](https://www.tandfonline.com/doi/full/10.1080/10618600.2021.1939038)
-      - The Binder reproducible tool is available at: [AUS-Wiki](https://github.com/mahsaashouri/AUS-Wiki-Binder)
+- **M. Ashouri**, R. J Hyndman, G. Shmueli, Fast forecast reconciliation using linear models, *Journal of Computational and  Graphical Statistics (JCGS)* - Jan 2022, 31(1):263-82 
+  - Available at [Fast Forecast Reconciliation](https://www.tandfonline.com/doi/full/10.1080/10618600.2021.1939038)
+      - The Binder reproducible tool is available at [AUS-Wiki](https://github.com/mahsaashouri/AUS-Wiki-Binder)
         
       
--  Tree-based methods for clustering time series using domain-relevant attributes, <em>Journal of Business  Analytics (Taylor & Francis Online)<em>, Vol. 2, NO. 1, Jul 2019, pp. 1–23. 
-    - Available at: [Tree-based Clustering Methods](https://www.tandfonline.com/doi/full/10.1080/2573234X.2019.1645574)
+- **M. Ashouri**, G. Shmueli, C.Y. Sin,  Tree-based methods for clustering time series using domain-relevant attributes, *Journal of Business  Analytics (Taylor & Francis Online)*, Vol. 2, NO. 1, Jul 2019, pp. 1–23. 
+    - Available at [Tree-based Clustering Methods](https://www.tandfonline.com/doi/full/10.1080/2573234X.2019.1645574)
       
       
-- Assessing the value of an information system for developing predictive analytics: The case of forecasting school-Level demand in Taiwan, <em>Journal of Service Science (INFORMS)<em>, Vol. 10, No. 1, Mar 2018, pp. 1-18. 
-  - Available at: [School Information System](https://pubsonline.informs.org/doi/10.1287/serv.2017.0200)
+- **M. Ashouri**, K. Cai, F. Lin, G. Shmueli, Assessing the value of an information system for developing predictive analytics: The case of forecasting school-Level demand in Taiwan, *Journal of Service Science (INFORMS)*, Vol. 10, No. 1, Mar 2018, pp. 1-18. 
+  - Available at [School Information System](https://pubsonline.informs.org/doi/10.1287/serv.2017.0200)
     
     
-- Interactive tool for clustering and forecasting patterns of Taiwan COVID-19 spread, <em>PLOS One<em>, Jun 2022, 17(6):e0265477.
+- **M. Ashouri**, F. K. H. Phoa, Interactive tool for clustering and forecasting patterns of Taiwan COVID-19 spread, *PLOS One*, Jun 2022, 17(6):e0265477.
     - Available at: [COVID-19 Interactive Tool](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0265477)
 
 ## Conference proceedings
 
-- Forecasting Daily Accommodation Occupancy for Supply Preparation by a Sharing Economy Platform, <em>2019 IEEE 5th International Conference on Big Data Intelligence and Computing<em>, Nov 2019, Kaohsiung, Taiwan.
-    - Available at: [Forecasting Daily Accommodation](https://conferences.computer.org/datacom/2019/pdfs/DataCom2019-3MYdIPKpqxiurNWZaDmspf/7roMDUSl0xEvNEjYtW5odN/6RHduX0lf1C2e2J0PnC1Xt.pdf)
+- T.C. Kuan, S.W. Wu, C.C. Liao, **M. Ashouri**, G. Shmueli and C. Lin, Forecasting Daily Accommodation Occupancy for Supply Preparation by a Sharing Economy Platform, *2019 IEEE 5th International Conference on Big Data Intelligence and Computing*, Nov 2019, Kaohsiung, Taiwan.
+    - Available at [Forecasting Daily Accommodation](https://conferences.computer.org/datacom/2019/pdfs/DataCom2019-3MYdIPKpqxiurNWZaDmspf/7roMDUSl0xEvNEjYtW5odN/6RHduX0lf1C2e2J0PnC1Xt.pdf)
 
-- A deep learning approach to bank direct marketing, <em>Proceedings of INFORMS International Conference<em>, 17-20 June 2018, Taipei, Taiwan.
-    - Available at: [Deep Learning Bank Marketing](https://www.semanticscholar.org/paper/A-Deep-Learning-Approach-To-Bank-Direct-Marketing-Hsu-Chen/096fd7951a52bc580115bc3e6e465528891de54a)
+- T. C. Hsu, J. S. Chen, W. Z. Chen, Y. H. Chien, S. W. Wu, **M. Ashouri**, C. Lin, G. Shmueli, A deep learning approach to bank direct marketing, *Proceedings of INFORMS International Conference*, 17-20 June 2018, Taipei, Taiwan.
+    - Available at [Deep Learning Bank Marketing](https://www.semanticscholar.org/paper/A-Deep-Learning-Approach-To-Bank-Direct-Marketing-Hsu-Chen/096fd7951a52bc580115bc3e6e465528891de54a)
  
-- A Leading Author Model for the Popularity Effect on Scientific Collaboration. <em>In International Conference on Complex Networks and Their Applications<em> (pp. 424-437). Springer, Cham, November 2021, online conference.
-    - Available at: [Leading Author Model](https://link.springer.com/chapter/10.1007/978-3-030-93409-5_36)
+- H. Jung, F. K. H. Phoa, **M. Ashouri**, A Leading Author Model for the Popularity Effect on Scientific Collaboration. *In International Conference on Complex Networks and Their Applications* (pp. 424-437). Springer, Cham, November 2021, online conference.
+    - Available at [Leading Author Model](https://link.springer.com/chapter/10.1007/978-3-030-93409-5_36)
 
 ## In-progress papers
 
-- An interactive clustering-based visualization tool for air quality data analysis, submitted.
+- **M. Ashouri**,  F. K. H. Phoa, C. Chen, G. Shmueli, An interactive clustering-based visualization tool for air quality data analysis, submitted.
   
-- Assessing Taiwanese traffic policy on consecutive holidays through forecast reconciliation and prediction-based anomaly detection techniques, submitted.
-    - Available at: [Prediction-based Anomaly Detection](https://arxiv.org/abs/2307.09537)
+- **M. Ashouri**, F. K. H. Phoa,  M. A. Cremona, Assessing Taiwanese traffic policy on consecutive holidays through forecast reconciliation and prediction-based anomaly detection techniques, submitted.
+    - Available at [Prediction-based Anomaly Detection](https://arxiv.org/abs/2307.09537)
 
 
 ## Working papers
 
 
-- Generalized bayesian additive regression trees for restricted mean survival time prediction. 
+- Generalized Bayesian additive regression trees for restricted mean survival time prediction. 
 
 - Robust updating of a risk prediction model by integrating external ranking information.
 
@@ -97,13 +97,13 @@
 
 ## Certicates
 
-- Postdoctoral short course on college teaching in STEM, Rackham school of graduate studies and the center for research on learning and teaching (CRLT) at the University of Michigan, April 10th, 2023.
+- Postdoctoral short course on college teaching in STEM, Rackham School of Graduate Studies and the Center for Research on Learning and Teaching (CRLT) at the University of Michigan, April 10th, 2023.
 
 ## Research internships and workshops
 
-- July 2018 - October 2018, research visit under the supervision of professor Rob J Hyndman, Department of Econometrics and Business Statistics, Monash University, VIC, Australia.
+- July - October 2018, research visit under the supervision of Professor Rob J Hyndman, Department of Econometrics and Business Statistics, Monash University, VIC, Australia.
   
-- January 2016 - February 2016,  research visit under the supervision of professor Smarajit Bose, Indian Statistical Institute, Kolkata, India.
+- January - February 2016,  research visit under the supervision of Professor Smarajit Bose, Indian Statistical Institute, Kolkata, India.
 
 - February 12-15, 2018, Analyzing large collections of time series, Shonan meeting, National Institute of Informatics, Tokyo, Japan.
 
