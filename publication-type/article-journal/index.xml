@@ -5,12 +5,28 @@
     <link>https://example.com/publication-type/article-journal/</link>
       <atom:link href="https://example.com/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>article-journal</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>article-journal</title>
       <link>https://example.com/publication-type/article-journal/</link>
     </image>
+    
+    <item>
+      <title>Interactive tool for clustering and forecasting patterns of Taiwan COVID-19 spread</title>
+      <link>https://example.com/publication/journal-article3/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Leading Author Model for the Popularity Effect on Scientific Collaboration</title>
+      <link>https://example.com/proceeding/proceeding1/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/proceeding/proceeding1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fast forecast reconciliation using linear models</title>
@@ -21,10 +37,34 @@
     </item>
     
     <item>
+      <title>Forecasting Daily Accommodation Occupancy for Supply Preparation by a Sharing Economy Platform</title>
+      <link>https://example.com/proceeding/proceeding2/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/proceeding/proceeding2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tree-based methods for clustering time series using domain-relevant attributes</title>
       <link>https://example.com/publication/journal-article/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/journal-article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A deep learning approach to bank direct marketing</title>
+      <link>https://example.com/proceeding/proceeding3/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/proceeding/proceeding3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing the Value of an Information System for Developing Predictive Analytics: The Case of Forecasting School-Level Demand in Taiwan</title>
+      <link>https://example.com/publication/journal-article2/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article2/</guid>
       <description></description>
     </item>
     
