@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Preprint | Academic</title>
+    <title>Preprint | Mahsa Ashouri</title>
     <link>https://example.com/publication-type/preprint/</link>
       <atom:link href="https://example.com/publication-type/preprint/index.xml" rel="self" type="application/rss+xml" />
     <description>Preprint</description>
