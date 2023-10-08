@@ -41,6 +41,14 @@
     </item>
     
     <item>
+      <title>Applied regression (graduate-level)</title>
+      <link>https://example.com/teaching/t1/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/teaching/t1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An interactive clustering-based visualization tool for air quality data analysis</title>
       <link>https://example.com/publication-in-progress/preprint2/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
@@ -57,7 +65,7 @@
     </item>
     
     <item>
-      <title>A Leading Author Model for the Popularity Effect on Scientific Collaboration</title>
+      <title>A leading author model for the popularity effect on scientific collaboration</title>
       <link>https://example.com/proceeding/proceeding1/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/proceeding/proceeding1/</guid>
@@ -153,7 +161,7 @@
     </item>
     
     <item>
-      <title>Forecasting Daily Accommodation Occupancy for Supply Preparation by a Sharing Economy Platform</title>
+      <title>Forecasting daily accommodation occupancy for supply preparation by a sharing economy platform</title>
       <link>https://example.com/proceeding/proceeding2/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://example.com/proceeding/proceeding2/</guid>
@@ -264,7 +272,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-315297846&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-724361589&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -274,7 +282,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-315297846&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-724361589&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
