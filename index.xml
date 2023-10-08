@@ -41,14 +41,6 @@
     </item>
     
     <item>
-      <title>Applied regression (graduate-level)</title>
-      <link>https://example.com/teaching/t1/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/teaching/t1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>An interactive clustering-based visualization tool for air quality data analysis</title>
       <link>https://example.com/publication-in-progress/preprint2/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
@@ -272,7 +264,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-724361589&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-248317956&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -282,7 +274,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-724361589&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-248317956&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
