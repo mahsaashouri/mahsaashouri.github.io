@@ -42,9 +42,9 @@
     
     <item>
       <title>An interactive clustering-based visualization tool for air quality data analysis</title>
-      <link>https://example.com/publication-in-progress/preprint2/</link>
+      <link>https://example.com/publication/journal-article4/</link>
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication-in-progress/preprint2/</guid>
+      <guid>https://example.com/publication/journal-article4/</guid>
       <description></description>
     </item>
     
@@ -264,7 +264,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-957836412&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-934751268&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -274,7 +274,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-957836412&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-934751268&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

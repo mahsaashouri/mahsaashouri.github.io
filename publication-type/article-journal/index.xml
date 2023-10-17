@@ -5,12 +5,20 @@
     <link>https://example.com/publication-type/article-journal/</link>
       <atom:link href="https://example.com/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>article-journal</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>article-journal</title>
       <link>https://example.com/publication-type/article-journal/</link>
     </image>
+    
+    <item>
+      <title>An interactive clustering-based visualization tool for air quality data analysis</title>
+      <link>https://example.com/publication/journal-article4/</link>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article4/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Interactive tool for clustering and forecasting patterns of Taiwan COVID-19 spread</title>
