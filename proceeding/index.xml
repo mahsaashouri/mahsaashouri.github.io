@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Mahsa Ashouri Homepage</title>
-    <link>mahsaashouri.githubpages.io/proceeding/</link>
-      <atom:link href="mahsaashouri.githubpages.io/proceeding/index.xml" rel="self" type="application/rss+xml" />
+    <title>Publications | Mahsa Ashouri</title>
+    <link>https://example.com/proceeding/</link>
+      <atom:link href="https://example.com/proceeding/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/mahsaashouri.githubpages.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>mahsaashouri.githubpages.io/proceeding/</link>
+      <link>https://example.com/proceeding/</link>
     </image>
     
     <item>
       <title>A leading author model for the popularity effect on scientific collaboration</title>
-      <link>mahsaashouri.githubpages.io/proceeding/proceeding1/</link>
+      <link>https://example.com/proceeding/proceeding1/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>mahsaashouri.githubpages.io/proceeding/proceeding1/</guid>
+      <guid>https://example.com/proceeding/proceeding1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Forecasting daily accommodation occupancy for supply preparation by a sharing economy platform</title>
-      <link>mahsaashouri.githubpages.io/proceeding/proceeding2/</link>
+      <link>https://example.com/proceeding/proceeding2/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>mahsaashouri.githubpages.io/proceeding/proceeding2/</guid>
+      <guid>https://example.com/proceeding/proceeding2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A deep learning approach to bank direct marketing</title>
-      <link>mahsaashouri.githubpages.io/proceeding/proceeding3/</link>
+      <link>https://example.com/proceeding/proceeding3/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>mahsaashouri.githubpages.io/proceeding/proceeding3/</guid>
+      <guid>https://example.com/proceeding/proceeding3/</guid>
       <description></description>
     </item>
     
