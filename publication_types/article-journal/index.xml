@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article-Journal | Hugo Academic CV Theme</title>
+    <link>https://example.com/publication_types/article-journal/</link>
+      <atom:link href="https://example.com/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Article-Journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Article-Journal</title>
+      <link>https://example.com/publication_types/article-journal/</link>
+    </image>
+    
+    <item>
+      <title>An interactive clustering-based visualization tool for air quality data analysis</title>
+      <link>https://example.com/publication/journal-article4/</link>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive tool for clustering and forecasting patterns of Taiwan COVID-19 spread</title>
+      <link>https://example.com/publication/journal-article3/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast forecast reconciliation using linear models</title>
+      <link>https://example.com/publication/journal-article5/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tree-based methods for clustering time series using domain-relevant attributes</title>
+      <link>https://example.com/publication/journal-article/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing the value of an information system for developing predictive analytics: the case of forecasting school-level demand in Taiwan</title>
+      <link>https://example.com/publication/journal-article2/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

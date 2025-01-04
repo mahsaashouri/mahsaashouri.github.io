@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teachings | Mahsa Ashouri</title>
+    <title>Teaching | Hugo Academic CV Theme</title>
     <link>https://example.com/teaching/</link>
       <atom:link href="https://example.com/teaching/index.xml" rel="self" type="application/rss+xml" />
-    <description>Teachings</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <description>Teaching</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Teachings</title>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Teaching</title>
       <link>https://example.com/teaching/</link>
     </image>
     
     <item>
-      <title>Applied regression (graduate-level)</title>
-      <link>https://example.com/teaching/t1/</link>
+      <title>STA309</title>
+      <link>https://example.com/teaching/sta309/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/teaching/sta309/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://bulletin.miamioh.edu/courses-instruction/sta/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Description&lt;/a&gt; Techniques for constructing, downloading, cleaning, combining, extracting and manipulating data sets to prepare them for statistical analysis and visualization. Emphasis on programming languages used in data analytics and structured query language.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BIOSTAT592</title>
+      <link>https://example.com/teaching/biostat592/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/teaching/t1/</guid>
-      <description></description>
+      <guid>https://example.com/teaching/biostat592/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://sph.umich.edu/research-education/courses/course.php?courseID=BIOSTAT592&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Description&lt;/a&gt;: This course is designed to introduce linear regression using multiple variables to predict a continuous outcome. This course emphasizes the application of multiple linear regression to substantive public health problems focusing on interpretation and inference. We use RStudio to analyze public health datasets, evaluate regression assumptions, and assess model fit.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

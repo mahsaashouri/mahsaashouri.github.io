@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Building, Managing and Exploring Data Sets in Analytics | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/building-managing-and-exploring-data-sets-in-analytics/</link>
+      <atom:link href="https://example.com/tags/building-managing-and-exploring-data-sets-in-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Building, Managing and Exploring Data Sets in Analytics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <title>Building, Managing and Exploring Data Sets in Analytics</title>
+      <link>https://example.com/tags/building-managing-and-exploring-data-sets-in-analytics/</link>
+    </image>
+    
+    <item>
+      <title>STA309</title>
+      <link>https://example.com/teaching/sta309/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/teaching/sta309/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://bulletin.miamioh.edu/courses-instruction/sta/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Description&lt;/a&gt; Techniques for constructing, downloading, cleaning, combining, extracting and manipulating data sets to prepare them for statistical analysis and visualization. Emphasis on programming languages used in data analytics and structured query language.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
