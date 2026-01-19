@@ -5,18 +5,18 @@
     <link>https://example.com/publication_types/preprint/</link>
       <atom:link href="https://example.com/publication_types/preprint/index.xml" rel="self" type="application/rss+xml" />
     <description>Preprint</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
       <title>Preprint</title>
       <link>https://example.com/publication_types/preprint/</link>
     </image>
     
     <item>
-      <title>Generalized Bayesian additive regression trees for restricted mean survival time inference</title>
-      <link>https://example.com/publication/preprint1/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/preprint1/</guid>
+      <title>Evaluating and testing for actionable treatment effect heterogeneity</title>
+      <link>https://example.com/publication/preprint/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/preprint/</guid>
       <description></description>
     </item>
     

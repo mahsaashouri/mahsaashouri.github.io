@@ -1,13 +1,13 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 3, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: January 18, 2026 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
+  <meta name="generator" content="Hugo Blox Builder 0.10.0" />
 
   
   
@@ -18,6 +18,8 @@
 
 
 
+
+  
 
 
 
@@ -56,64 +58,33 @@
 
   
   
+  
     
-    <link href="/dist/wc.min.css" rel="stylesheet" />
-  
 
   
   
   
-
   
-
-  <script>
-     
-    window.hbb = {
-       defaultTheme: document.documentElement.dataset.wcThemeDefault,
-       setDarkTheme: () => {
-        document.documentElement.classList.add("dark");
-        document.documentElement.style.colorScheme = "dark";
-      },
-       setLightTheme: () => {
-        document.documentElement.classList.remove("dark");
-        document.documentElement.style.colorScheme = "light";
-      }
-    }
-
-    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
-
-    if ("wc-color-theme" in localStorage) {
-      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-    } else {
-      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-      if (window.hbb.defaultTheme === "system") {
-        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-      }
-    }
-  </script>
-
-  <script>
+  
+  
+  
     
-    document.addEventListener('DOMContentLoaded', function () {
       
-      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
-      checkboxes.forEach(e => {
-        e.parentElement.parentElement.classList.add('task-list');
-      });
+        <link rel="stylesheet" href="/css/_entry.b70b237ed1d1a5e2a17ca84c0ce3240f7acb4746b676dcdbf17b06e5c48c3a76.css" integrity="sha256-twsjftHRpeKhfKhMDOMkD3rLR0a2dtzb8XsG5cSMOnY=" crossorigin="anonymous">
+      
+    
+  
 
-      
-      const liNodes = document.querySelectorAll('.task-list li');
-      liNodes.forEach(nodes => {
-        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
-        if (textNodes.length > 0) {
-          const span = document.createElement('label');
-          textNodes[0].after(span);  
-          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
-          span.appendChild(textNodes[0]);
-        }
-      });
-    });
-  </script>
+
+  
+
+  
+  
+  
+
+  
+
+  <script src="/js/hb-head.min.01cd73a09512f0fc45bed2c68f9f9a23041c57dafb87c91cf91373611031bd84.js" integrity="sha256-Ac1zoJUS8PxFvtLGj5&#43;aIwQcV9r7h8kc&#43;RNzYRAxvYQ=" crossorigin="anonymous"></script>
 
   
   
@@ -160,8 +131,8 @@
   
 
   
-  <link rel="icon" type="image/png" href="/media/icon_hu3247630877640252165.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4166356570829923896.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
 
   <link rel="canonical" href="https://example.com/publication/" />
 
@@ -191,15 +162,18 @@
   <meta property="og:site_name" content="Hugo Academic CV Theme" />
   <meta property="og:url" content="https://example.com/publication/" />
   <meta property="og:title" content="Publications | Hugo Academic CV Theme" />
-  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="https://example.com/media/icon_hu7729264130191091259.png" />
-    <meta property="twitter:image" content="https://example.com/media/icon_hu7729264130191091259.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="https://example.com/media/icon_hu_645fa481986063ef.png" />
+    <meta property="twitter:image" content="https://example.com/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2024-03-01T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2025-12-15T00:00:00&#43;00:00" />
     
   
 
   
+
+
+
 
 
 
@@ -231,133 +205,161 @@
   
 
 
+
+
   
   
+
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   
   
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
     
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
       
+    
+    
+  
+
+  
+    
     
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
       
-    
+      
+      
+      
+      
+      
+      
+      
+      
       
       
     
   
   
   
+
+  
+  
+
+  
+
+  
+  
+    
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+    
+  
+
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
   
   
   
@@ -367,103 +369,11 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
-
-
-
-
-
-
-<link type="text/css" rel="stylesheet" href="/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
-
-
-<script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
-
-
-<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
-
-<style>
-  html.dark {
-    --pagefind-ui-primary: #eeeeee;
-    --pagefind-ui-text: #eeeeee;
-    --pagefind-ui-background: #152028;
-    --pagefind-ui-border: #152028;
-    --pagefind-ui-tag: #152028;
-  }
-</style>
-
-<script>
-  window.addEventListener('DOMContentLoaded', (event) => {
-    new PagefindUI({
-      element: "#search",
-      showSubResults: true,
-      baseUrl: window.hbb.pagefind.baseUrl,
-      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
-    });
-  });
-  document.addEventListener('DOMContentLoaded', () => {
-    let element = document.getElementById('search');
-    let trigger = document.getElementById('search_toggle');
-
-    if (trigger) {
-      trigger.addEventListener('click', () => {
-        element.classList.toggle('hidden');
-        element.querySelector("input").value = ""
-        element.querySelector("input").focus()
-
-        if (!element.classList.contains('hidden')) {
-          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
-
-          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
-            clear_trigger.setAttribute('listenerOnClick', 'true');
-
-            clear_trigger.addEventListener('click', () => {
-              element.classList.toggle('hidden');
-            });
-          }
-        }
-
-      });
-    }
-  });
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
   <script
     defer
-    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
-    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+    src="/js/hugo-blox-en.min.65b31b94cb4f09cfd8f827efdb711400b677b90781e4aee753207d95de698687.js"
+    integrity="sha256-ZbMblMtPCc/Y&#43;Cfv23EUALZ3uQeB5K7nUyB9ld5phoc="
   ></script>
 
   
@@ -476,13 +386,40 @@
 
 
 
-  
-    
-      
-      <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-      
-    
+  <script>console.log('✓ Alpine.js loading on demand');</script>
+  
+  
+  <script src="/dist/lib/alpinejs/cdn.min.e041f1b639d1e6b2fc2736d8d7638a409afcd444a6ec90446f8f4e44fa36f406.js" integrity="sha256-4EHxtjnR5rL8JzbY12OKQJr81ESm7JBEb49ORPo29AY=" defer></script>
+
+
+
+
+<script defer src="/js/hb-search.min.135366008264b9d452ff89aad28374bc7e4b40d2c047098318511786419873b0.js" integrity="sha256-E1NmAIJkudRS/4mq0oN0vH5LQNLARwmDGFEXhkGYc7A="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
   
 
 
@@ -497,11 +434,9 @@
       
       
         
-        
-        
           <header id="site-header" class="header">
-  <nav class="navbar px-3 flex justify-left">
-    <div class="order-0 h-100">
+  <nav class="navbar px-3 flex justify-start">
+    <div class="order-0 h-full">
       
       <a class="navbar-brand" href="/" title="Hugo Academic CV Theme">
         Mahsa Ashouri
@@ -529,7 +464,7 @@
     
     <ul
       id="nav-menu"
-      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-start
       ">
       
       
@@ -584,9 +519,9 @@
       
       
       <button
-        aria-label="search"
-        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
-        id="search_toggle">
+        aria-label="toggle search"
+        class="text-black hover:text-primary inline-block px-3 text-xl dark:text-white cursor-pointer"
+        data-search-toggle>
         <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
       
@@ -598,12 +533,12 @@
         <button class="theme-toggle mt-1" accesskey="t" title="appearance">
           <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-               stroke-linejoin="round" class="dark:hidden">
+               stroke-linejoin="round" class="block dark:hidden">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
           <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+               stroke-linejoin="round" class="hidden dark:block">
             <circle cx="12" cy="12" r="5"></circle>
             <line x1="12" y1="1" x2="12" y2="3"></line>
             <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -628,8 +563,488 @@
 </header>
 
 
-<div id="search" class="hidden p-3"></div>
+<div
+  x-data="searchModal()"
+  x-show="$store.search.open"
+  @keydown.escape.window="$store.search.open = false"
+  @keydown.cmd.k.window.prevent="$store.search.open = !$store.search.open"
+  @keydown.ctrl.k.window.prevent="$store.search.open = !$store.search.open"
+  x-cloak
+  class="fixed inset-0 z-[100] bg-black/50 backdrop-blur-sm"
+  style="display: none;"
+>
+  
+  <div class="absolute inset-0" @click="$store.search.open = false"></div>
+  
+  
+  <div 
+    class="relative mx-auto mt-[10vh] max-w-3xl"
+    x-show="$store.search.open"
+    x-transition:enter="transition ease-out duration-200"
+    x-transition:enter-start="opacity-0 translate-y-4 scale-95"
+    x-transition:enter-end="opacity-100 translate-y-0 scale-100"
+    x-transition:leave="transition ease-in duration-150"
+    x-transition:leave-start="opacity-100 translate-y-0 scale-100"
+    x-transition:leave-end="opacity-0 translate-y-4 scale-95"
+  >
+    <div class="mx-4 overflow-hidden rounded-2xl bg-white dark:bg-gray-900 shadow-2xl ring-1 ring-gray-900/10 dark:ring-white/10">
+      
+      
+      <div class="border-b border-gray-200 dark:border-gray-800">
+        <div class="flex items-center gap-3 px-4 py-3">
+          
+          
+          <svg class="h-5 w-5 flex-shrink-0 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+          
+          
+          <input
+            x-ref="searchInput"
+            x-model="query"
+            @input="loading = query.trim() !== ''"
+            @input.debounce.300ms="search()"
+            type="text"
+            placeholder="Search for answers..."
+            class="flex-1 bg-transparent text-lg outline-none text-gray-900 dark:text-gray-100 placeholder-gray-400"
+            autocomplete="off"
+            autofocus
+          />
+          
+          
+          <div x-show="loading" class="flex-shrink-0">
+            <svg class="animate-spin h-5 w-5 text-primary-600" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+          </div>
+          
+          
+          <kbd class="hidden sm:block flex-shrink-0 rounded bg-gray-100 px-2 py-1 text-xs font-semibold text-gray-600 dark:bg-gray-800 dark:text-gray-400">ESC</kbd>
+          
+          
+    <button
+            @click="$store.search.open = false"
+            class="flex-shrink-0 rounded-lg p-1 text-gray-400 hover:bg-gray-100 hover:text-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-300 cursor-pointer"
+    >
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+  </div>
 
+        
+        <div x-show="query && availableFilters.length > 0" x-transition class="border-t border-gray-100 dark:border-gray-800 px-4 py-2">
+          <div class="flex flex-wrap gap-2">
+            <button
+              @click="activeFilter = null; search()"
+              :class="activeFilter === null ? 'bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300' : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400'"
+              class="rounded-full px-3 py-1 text-xs font-medium transition-colors cursor-pointer"
+            >
+              All Results
+            </button>
+            <template x-for="filter in availableFilters" :key="filter.filterKey">
+              <button
+                @click="activeFilter = filter.filterKey; search()"
+                :class="activeFilter === filter.filterKey ? 'bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300' : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400'"
+                class="rounded-full px-3 py-1 text-xs font-medium transition-colors cursor-pointer"
+                x-text="filter.label + ' (' + filter.count + ')'"
+              ></button>
+            </template>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="max-h-[60vh] overflow-y-auto">
+        
+        
+        <div x-show="!query && results.length === 0" class="p-6">
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+        
+        
+        <div x-show="query && results.length > 0" class="divide-y divide-gray-200 dark:divide-gray-800">
+          <template x-for="(result, index) in results" :key="result.id">
+            <a
+              :href="result.url"
+              @mouseenter="selectedIndex = index"
+              @click="$store.search.open = false"
+              :class="selectedIndex === index ? 'bg-primary-50 dark:bg-primary-900/20 border-l-2 border-primary-600' : ''"
+              class="block px-6 py-4 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group search-result"
+            >
+              
+              <div class="flex items-center gap-2 mb-2 flex-wrap">
+                
+                <span
+                  x-show="result.filters && result.filters.type"
+                  :class="{
+                    'bg-primary-100 text-primary-700 dark:bg-primary-900 dark:text-primary-300': result.filters.type && result.filters.type[0] === 'questions',
+                    'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300': result.filters.type && result.filters.type[0] === 'faq',
+                    'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300': result.filters.type && result.filters.type[0] === 'docs'
+                  }"
+                  class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium"
+                  x-text="result.filters.type ? (typeLabels[result.filters.type[0]] || result.filters.type[0]) : ''"
+                ></span>
+                
+                
+                <span 
+                  x-show="result.filters && result.filters.category" 
+                  class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300"
+                  x-text="result.filters.category ? result.filters.category[0] : ''"
+                ></span>
+                
+                
+                <span 
+                  x-show="result.filters && result.filters.difficulty" 
+                  class="inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300"
+                  x-text="result.filters.difficulty ? result.filters.difficulty[0] : ''"
+                ></span>
+              </div>
+              
+              
+              <h3 class="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors mb-2" x-html="result.meta.title || 'Untitled'"></h3>
+              
+              
+              <p class="text-sm text-gray-600 dark:text-gray-400 line-clamp-2" x-html="result.excerpt"></p>
+            </a>
+          </template>
+        </div>
+        
+        
+        <div x-show="query && loading" class="px-6 py-16 text-center">
+          <div class="inline-flex items-center gap-3">
+            <svg class="animate-spin h-8 w-8 text-primary-600" fill="none" viewBox="0 0 24 24">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            <div class="text-left">
+              <p class="text-lg font-medium text-gray-900 dark:text-white">Searching...</p>
+              <p class="text-sm text-gray-500 dark:text-gray-400" x-text="'Finding results for &quot;' + query + '&quot;'"></p>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div x-show="query && results.length === 0 && !loading && hasSearched" class="px-6 py-12 text-center">
+          <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          <h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">No results found</h3>
+          <p class="mt-2 text-gray-600 dark:text-gray-400" x-text="'No results for &quot;' + query + '&quot;'"></p>
+          <button
+            @click="query = ''; $refs.searchInput.focus()"
+            class="mt-4 text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 font-medium"
+          >
+            Clear search
+          </button>
+        </div>
+      </div>
+      
+      
+      <div class="border-t border-gray-200 dark:border-gray-800 px-4 py-3 bg-gray-50 dark:bg-gray-900/50">
+        <div class="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
+          <div class="flex items-center gap-3">
+            <span class="flex items-center gap-1">
+              <kbd class="rounded bg-white dark:bg-gray-800 px-1.5 py-0.5 font-mono text-[10px] font-semibold border border-gray-300 dark:border-gray-700">↑↓</kbd>
+              Navigate
+            </span>
+            <span class="flex items-center gap-1">
+              <kbd class="rounded bg-white dark:bg-gray-800 px-1.5 py-0.5 font-mono text-[10px] font-semibold border border-gray-300 dark:border-gray-700">↵</kbd>
+              Select
+            </span>
+            <span x-show="availableFilters.length > 0" class="flex items-center gap-1">
+              <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path>
+              </svg>
+              <span x-text="availableFilters.length + ' filters'"></span>
+            </span>
+          </div>
+          <a href="https://hugoblox.com" target="_blank" rel="noopener" class="flex items-center gap-1 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+            <svg class="h-3 w-3" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+            Powered by Hugo Blox
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<script>
+  
+  function searchModal() {
+    return {
+      query: '',
+      results: [],
+      loading: false,
+      hasSearched: false,  
+      selectedIndex: -1,
+      activeFilter: null,
+      availableFilters: [],
+      trendingSearches: "[\"Search term 1\",\"Search term 2\"]",
+      pagefind: null,
+      
+      
+      typeLabels: {
+        'questions': "\"Questions\"",
+        'faq': "\"FAQ\"",
+        'docs': "\"Documentation\""
+      },
+      
+      async init() {
+        
+        try {
+          this.pagefind = await import('/pagefind/pagefind.js');
+          await this.pagefind.init();
+          console.log('✓ Pagefind initialized');
+          
+          
+          await this.loadFilters();
+        } catch (error) {
+          console.error('Failed to initialize Pagefind:', error);
+        }
+        
+        
+        this.$watch('$store.search.open', (open) => {
+          if (open) {
+            this.$nextTick(() => this.$refs.searchInput?.focus());
+            document.body.style.overflow = 'hidden';
+          } else {
+            document.body.style.overflow = '';
+            this.query = '';
+            this.results = [];
+            this.selectedIndex = -1;
+            this.hasSearched = false;  
+          }
+        });
+        
+        
+        window.addEventListener('keydown', (e) => {
+          if (!this.$store.search.open || this.results.length === 0) return;
+          
+          if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            this.selectedIndex = this.selectedIndex < this.results.length - 1 ? this.selectedIndex + 1 : 0;
+            this.scrollToSelected();
+          } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            this.selectedIndex = this.selectedIndex > 0 ? this.selectedIndex - 1 : this.results.length - 1;
+            this.scrollToSelected();
+          } else if (e.key === 'Enter' && this.selectedIndex >= 0) {
+            e.preventDefault();
+            const selected = this.results[this.selectedIndex];
+            if (selected) {
+              window.location.href = selected.url;
+              this.$store.search.open = false;
+            }
+          }
+        });
+      },
+      
+      scrollToSelected() {
+        this.$nextTick(() => {
+          const selectedEl = document.querySelector('.search-result:nth-child(' + (this.selectedIndex + 1) + ')');
+          if (selectedEl) {
+            selectedEl.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+          }
+        });
+      },
+      
+      async search() {
+        if (!this.query.trim()) {
+          this.results = [];
+          this.hasSearched = false;
+          return;
+        }
+        
+        this.loading = true;
+        this.hasSearched = false;  
+        
+        try {
+          const options = {};
+          
+          
+          if (this.activeFilter) {
+            const [filterCategory, filterValue] = this.activeFilter.split(':');
+            options.filters = { [filterCategory]: filterValue };
+          }
+          
+          const search = await this.pagefind.search(this.query, options);
+          console.log('Search results:', search);
+          console.log('Search filters:', search.filters);
+          
+          
+          this.results = await Promise.all(
+            search.results.slice(0, 10).map(async (result) => {
+              const data = await result.data();
+              console.log('Result data:', data);
+              return {
+                id: data.url,
+                url: data.url,
+                meta: data.meta,
+                excerpt: data.excerpt,
+                filters: data.filters || {}
+              };
+            })
+          );
+          
+          
+          const filterCounts = { type: {}, category: {}, difficulty: {} };
+          
+          this.results.forEach(result => {
+            if (result.filters) {
+              
+              if (result.filters.type) {
+                result.filters.type.forEach(val => {
+                  filterCounts.type[val] = (filterCounts.type[val] || 0) + 1;
+                });
+              }
+              
+              if (result.filters.category) {
+                result.filters.category.forEach(val => {
+                  filterCounts.category[val] = (filterCounts.category[val] || 0) + 1;
+                });
+              }
+              
+              if (result.filters.difficulty) {
+                result.filters.difficulty.forEach(val => {
+                  filterCounts.difficulty[val] = (filterCounts.difficulty[val] || 0) + 1;
+                });
+              }
+            }
+          });
+          
+          console.log('Extracted filter counts from results:', filterCounts);
+          
+          
+          const filters = [];
+          
+          
+          Object.entries(filterCounts.type).forEach(([value, count]) => {
+            filters.push({
+              category: 'type',
+              value,
+              label: this.typeLabels[value] || value.charAt(0).toUpperCase() + value.slice(1),
+              count,
+              filterKey: `type:${value}`
+            });
+          });
+          
+          
+          Object.entries(filterCounts.category).forEach(([value, count]) => {
+            filters.push({
+              category: 'category',
+              value,
+              label: value,
+              count,
+              filterKey: `category:${value}`
+            });
+          });
+          
+          
+          Object.entries(filterCounts.difficulty).forEach(([value, count]) => {
+            filters.push({
+              category: 'difficulty',
+              value,
+              label: value,
+              count,
+              filterKey: `difficulty:${value}`
+            });
+          });
+          
+          this.availableFilters = filters;
+          console.log('Final availableFilters array:', this.availableFilters);
+          
+          
+          if (this.results.length > 0) {
+            this.selectedIndex = 0;
+          }
+        } catch (error) {
+          console.error('Search error:', error);
+          this.results = [];
+        } finally {
+          this.loading = false;
+          this.hasSearched = true;  
+        }
+      },
+      
+      async loadFilters() {
+        
+        try {
+          const search = await this.pagefind.search('');
+          console.log('Available Pagefind filters:', search.filters);
+          
+          const filters = [];
+          
+          
+          if (search.filters && search.filters.type) {
+            Object.entries(search.filters.type).forEach(([value, count]) => {
+              filters.push({
+                category: 'type',
+                value,
+                label: value.charAt(0).toUpperCase() + value.slice(1),
+                count,
+                filterKey: `type:${value}`
+              });
+            });
+          }
+          
+          
+          if (search.filters && search.filters.category) {
+            Object.entries(search.filters.category).forEach(([value, count]) => {
+              filters.push({
+                category: 'category',
+                value,
+                label: value,
+                count,
+                filterKey: `category:${value}`
+              });
+            });
+          }
+          
+          
+          if (search.filters && search.filters.difficulty) {
+            Object.entries(search.filters.difficulty).forEach(([value, count]) => {
+              filters.push({
+                category: 'difficulty',
+                value,
+                label: value,
+                count,
+                filterKey: `difficulty:${value}`
+              });
+            });
+          }
+          
+          this.availableFilters = filters;
+          console.log('Processed filters:', this.availableFilters);
+        } catch (error) {
+          console.error('Failed to load filters:', error);
+        }
+      }
+    };
+  }
+  
+  
+  document.addEventListener('alpine:init', () => {
+    Alpine.store('search', {
+      open: false
+    });
+  });
+</script>
+
+<style>
+  [x-cloak] { display: none !important; }
+</style>
 
         
       
@@ -647,6 +1062,34 @@
 
 
 
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
 <div class="flex flex-col items-center">
 
   
@@ -656,7 +1099,6 @@
 
   
   
-  
 
 
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
@@ -668,12 +1110,14 @@
   <span class="article-metadata li-cite-author">
     
 
+
   <span class="font-bold">
       Mahsa Ashouri</span>, <span >
       Nicholas C. Henderson</span>
   </span>
-  (2024).
-  <a href="/publication/preprint1/" class="underline">Generalized Bayesian additive regression trees for restricted mean survival time inference</a>.
+  (2025).
+  <a href="/publication/journal-article7/" class="underline">Generalized Bayesian additive regression trees for restricted mean survival time inference</a>.
+  Bayesian Analysis.
   
 
   
@@ -687,63 +1131,149 @@
 
 
 
+ 
+
+
   
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/journal-article7/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
     
   
 
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/pdf/2402.17920.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/preprint1/cite.bib" target="_blank" data-filename="/publication/preprint1/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
   
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/mahsaashouri/Loss-Function-BART-RMST" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
 
-  
-  
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/Loss-Function-BART-RMST" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
     
   
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/mahsaashouri/Loss-Function-BART-RMST" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
-  Dataset
-</a>
 
-
-
-
-
-
-
-
-
-
-  
   
     
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/Loss-Function-BART-RMST" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
+        Dataset
+      </a>
+    
   
-<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/2402.17920#:~:text=Generalized%20Bayesian%20Additive%20Regression%20Trees%20for%20Restricted%20Mean%20Survival%20Time%20Inference,-Mahsa%20Ashouri%2C%20Nicholas&amp;text=Prediction%20methods%20for%20time%2Dto,and%20survival%20functions%20are%20related." target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  Source Document
-</a>
 
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://projecteuclid.org/journalArticle/Download?urlId=10.1214%2F25-BA1579" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://projecteuclid.org/journals/bayesian-analysis/volume--1/issue--1/Generalized-Bayesian-Additive-Regression-Trees-for-Restricted-Mean-Survival-Time/10.1214/25-BA1579.full" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        Source Document
+      </a>
+    
+  
 
 
   </div>
@@ -765,14 +1295,16 @@
 
   <span class="article-metadata li-cite-author">
     
+
 
   <span class="font-bold">
       Mahsa Ashouri</span>, <span >
       Frederick Kin Hing Phoa</span>, <span >
       Marzia A. Cremona</span>
   </span>
-  (2023).
-  <a href="/publication/preprint/" class="underline">Analyzing Taiwanese traffic patterns on consecutive holidays through forecast reconciliation and prediction-based anomaly detection techniques</a>.
+  (2025).
+  <a href="/publication/journal-article6/" class="underline">Analyzing Taiwanese traffic patterns on consecutive holidays through forecast reconciliation and prediction-based anomaly detection techniques</a>.
+  IEEE Access.
   
 
   
@@ -786,63 +1318,149 @@
 
 
 
+ 
+
+
   
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/journal-article6/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
     
   
 
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://browse.arxiv.org/pdf/2307.09537.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/preprint/cite.bib" target="_blank" data-filename="/publication/preprint/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
   
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/mahsaashouri/Taiwan-highway-traffic-anomaly" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
 
-  
-  
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/Taiwan-highway-traffic-anomaly" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
     
   
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/mahsaashouri/Taiwan-highway-traffic-anomaly" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
-  Dataset
-</a>
 
-
-
-
-
-
-
-
-
-
-  
   
     
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/Taiwan-highway-traffic-anomaly" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
+        Dataset
+      </a>
+    
   
-<a class="hb-attachment-link hb-attachment-small" href="https://arxiv.org/abs/2307.09537" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  Source Document
-</a>
 
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11045382" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://ieeexplore.ieee.org/abstract/document/11045382" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        Source Document
+      </a>
+    
+  
 
 
   </div>
@@ -864,6 +1482,192 @@
 
   <span class="article-metadata li-cite-author">
     
+
+
+  <span class="font-bold">
+      Mahsa Ashouri</span>, <span >
+      Nicholas C. Henderson</span>
+  </span>
+  (2025).
+  <a href="/publication/preprint/" class="underline">Evaluating and testing for actionable treatment effect heterogeneity</a>.
+  
+
+  
+  <div class="flex flex-wrap space-x-3">
+    
+
+
+
+
+
+
+
+
+ 
+
+
+  
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/preprint/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/HTE-Model-Comparison" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/HTE-Model-Comparison" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
+        Dataset
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://arxiv.org/pdf/2503.04093" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://arxiv.org/abs/2503.04093" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        Source Document
+      </a>
+    
+  
+
+
+  </div>
+  
+
+  
+  
+</div>
+
+  
+  
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
 
   <span class="font-bold">
       Mahsa Ashouri</span>, <span >
@@ -887,63 +1691,149 @@
 
 
 
+ 
+
+
   
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/journal-article4/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
     
   
 
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://aaqr.org/articles/aaqr-23-05-oa-0124" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/journal-article4/cite.bib" target="_blank" data-filename="/publication/journal-article4/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
   
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/mahsaashouri/model-based-time-series-clustering-tool" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
 
-  
-  
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/model-based-time-series-clustering-tool" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
     
   
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/mahsaashouri/model-based-time-series-clustering-tool" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
-  Dataset
-</a>
 
-
-
-
-
-
-
-
-
-
-  
   
     
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/model-based-time-series-clustering-tool" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
+        Dataset
+      </a>
+    
   
-<a class="hb-attachment-link hb-attachment-small" href="https://aaqr.org/articles/aaqr-23-05-oa-0124" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  Source Document
-</a>
 
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://aaqr.org/articles/aaqr-23-05-oa-0124" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://aaqr.org/articles/aaqr-23-05-oa-0124" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        Source Document
+      </a>
+    
+  
 
 
   </div>
@@ -965,6 +1855,7 @@
 
   <span class="article-metadata li-cite-author">
     
+
 
   <span class="font-bold">
       Mahsa Ashouri</span>, <span >
@@ -986,56 +1877,121 @@
 
 
 
-  
+ 
 
 
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/journal-article3/cite.bib" target="_blank" data-filename="/publication/journal-article3/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
   
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/mahsaashouri/Taiwan-COVID-19-Interactive-tool" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
+    
+    
+    
+    
+    
+      
+        
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
 
-  
-  
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/journal-article3/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
     
   
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/mahsaashouri/Taiwan-COVID-19-Interactive-tool" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
-  Dataset
-</a>
 
-
-
-
-
-
-
-
-
-
-  
   
     
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/Taiwan-COVID-19-Interactive-tool" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
+    
   
-<a class="hb-attachment-link hb-attachment-small" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0265477" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  Source Document
-</a>
 
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/Taiwan-COVID-19-Interactive-tool" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
+        Dataset
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0265477" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        Source Document
+      </a>
+    
+  
 
 
   </div>
@@ -1057,6 +2013,7 @@
 
   <span class="article-metadata li-cite-author">
     
+
 
   <span class="font-bold">
       Mahsa Ashouri</span>, <span >
@@ -1079,63 +2036,149 @@
 
 
 
+ 
+
+
   
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/journal-article5/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
     
   
 
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://www.monash.edu/business/ebs/our-research/publications/ebs/wp29-2019.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/journal-article5/cite.bib" target="_blank" data-filename="/publication/journal-article5/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
   
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/mahsaashouri/AUS-Wiki-Binder" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
 
-  
-  
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/AUS-Wiki-Binder" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
+        Code
+      </a>
     
   
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/mahsaashouri/AUS-Wiki-Binder" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
-  Dataset
-</a>
 
-
-
-
-
-
-
-
-
-
-  
   
     
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://github.com/mahsaashouri/AUS-Wiki-Binder" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
+        Dataset
+      </a>
+    
   
-<a class="hb-attachment-link hb-attachment-small" href="https://www.tandfonline.com/doi/abs/10.1080/10618600.2021.1939038" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  Source Document
-</a>
 
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://www.monash.edu/business/ebs/our-research/publications/ebs/wp29-2019.pdf" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://www.tandfonline.com/doi/abs/10.1080/10618600.2021.1939038" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        Source Document
+      </a>
+    
+  
 
 
   </div>
@@ -1157,6 +2200,7 @@
 
   <span class="article-metadata li-cite-author">
     
+
 
   <span >
       Hohyun Jung</span>, <span >
@@ -1179,38 +2223,65 @@
 
 
 
-  
+ 
 
 
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/conference-paper/cite.bib" target="_blank" data-filename="/publication/conference-paper/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-  
   
     
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/conference-paper/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
+    
   
-<a class="hb-attachment-link hb-attachment-small" href="https://link.springer.com/chapter/10.1007/978-3-030-93409-5_36" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  Source Document
-</a>
 
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://link.springer.com/chapter/10.1007/978-3-030-93409-5_36" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        Source Document
+      </a>
+    
+  
 
 
   </div>
@@ -1232,6 +2303,7 @@
 
   <span class="article-metadata li-cite-author">
     
+
 
   <span >
       Ta-Chun Kuan</span>, <span >
@@ -1257,31 +2329,36 @@
 
 
 
+ 
+
+
   
     
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://conferences.computer.org/datacom/2019/pdfs/DataCom2019-3MYdIPKpqxiurNWZaDmspf/7roMDUSl0xEvNEjYtW5odN/6RHduX0lf1C2e2J0PnC1Xt.pdf" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
   
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://conferences.computer.org/datacom/2019/pdfs/DataCom2019-3MYdIPKpqxiurNWZaDmspf/7roMDUSl0xEvNEjYtW5odN/6RHduX0lf1C2e2J0PnC1Xt.pdf" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   </div>
@@ -1303,6 +2380,7 @@
 
   <span class="article-metadata li-cite-author">
     
+
 
   <span class="font-bold">
       Mahsa Ashouri</span>, <span >
@@ -1325,45 +2403,93 @@
 
 
 
+ 
+
+
   
+    
+    
+    
+    
+    
+    
+      
+        
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <button class="hb-attachment-link hb-attachment-link-small js-cite-clipboard cursor-pointer" type="button" data-filename="/publication/journal-article/cite.bib">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
+        <span>Cite</span>
+      </button>
     
   
 
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3282849" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/journal-article/cite.bib" target="_blank" data-filename="/publication/journal-article/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-  
   
     
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3282849" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
+    
   
-<a class="hb-attachment-link hb-attachment-small" href="https://www.tandfonline.com/doi/abs/10.1080/2573234X.2019.1645574" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  Source Document
-</a>
 
+  
+    
+    
+    
+    
+    
+    
+      
+      
+    
 
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://www.tandfonline.com/doi/abs/10.1080/2573234X.2019.1645574" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        Source Document
+      </a>
+    
+  
 
 
   </div>
@@ -1385,6 +2511,7 @@
 
   <span class="article-metadata li-cite-author">
     
+
 
   <span >
       Te-Cheng Hsu</span>, <span >
@@ -1412,125 +2539,64 @@
 
 
 
+ 
+
+
   
+    
+    
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+      
+        
+      
+    
+    
+
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://www.semanticscholar.org/paper/A-Deep-Learning-Approach-To-Bank-Direct-Marketing-Hsu-Chen/096fd7951a52bc580115bc3e6e465528891de54a" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        PDF
+      </a>
     
   
 
-
-
-<a class="hb-attachment-link hb-attachment-small" href="https://www.semanticscholar.org/paper/A-Deep-Learning-Approach-To-Bank-Direct-Marketing-Hsu-Chen/096fd7951a52bc580115bc3e6e465528891de54a" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   
     
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://www.semanticscholar.org/paper/A-Deep-Learning-Approach-To-Bank-Direct-Marketing-Hsu-Chen/096fd7951a52bc580115bc3e6e465528891de54a" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  Source Document
-</a>
-
-
-
-
-  </div>
-  
-
-  
-  
-</div>
-
-  
-  
-
-
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span class="article-metadata li-cite-author">
+    
+    
+    
+    
+    
+      
+      
     
 
-  <span class="font-bold">
-      Mahsa Ashouri</span>, <span >
-      Kate Cai</span>, <span >
-      Furen Lin</span>, <span >
-      Galit Shmueli</span>
-  </span>
-  (2018).
-  <a href="/publication/journal-article2/" class="underline">Assessing the value of an information system for developing predictive analytics: the case of forecasting school-level demand in Taiwan</a>.
-  Service Science.
-  
-
-  
-  <div class="flex flex-wrap space-x-3">
+    
+    
+    
+      
+        
+      
+    
     
 
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<a class="hb-attachment-link hb-attachment-small" href="/publication/journal-article2/cite.bib" target="_blank" data-filename="/publication/journal-article2/cite.bib">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75"/></svg>
-  Cite
-</a>
-
-
-  
-  
+    
+      <a class="hb-attachment-link hb-attachment-link-small" href="https://www.semanticscholar.org/paper/A-Deep-Learning-Approach-To-Bank-Direct-Marketing-Hsu-Chen/096fd7951a52bc580115bc3e6e465528891de54a" target="_blank" rel="noopener">
+        <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
+        Source Document
+      </a>
     
   
-<a class="hb-attachment-link hb-attachment-small" href="https://github.com/mahsaashouri/school-forecasting" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"/></svg>
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="hb-attachment-link hb-attachment-small" href="https://pubsonline.informs.org/doi/abs/10.1287/serv.2017.0200" target="_blank" rel="noopener">
-  <svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/></svg>
-  Source Document
-</a>
-
-
 
 
   </div>
@@ -1547,6 +2613,15 @@
 
 
   
+<nav class="mt-1">
+  <ul class="container mx-auto flex justify-center">
+    
+    
+    <li class="p-5"><a class="page-link" href="/publication/page/2/">Next &raquo;</a></li>
+    
+  </ul>
+</nav>
+
 
 
 </div>
@@ -1565,12 +2640,12 @@
 
 
 
-
-
-
-
   
-  
+
+
+
+
+
   
   
   
@@ -1604,7 +2679,7 @@
 
   
   <p class="powered-by text-center">
-    © 2025 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2026 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1625,21 +2700,32 @@
 
 
 
-  <p class="powered-by text-center">
+  
     
     
+      
+      
+        
+        
+      
     
-      
-      
-      
-      
-      
-      
-      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
 
-</footer>
+    <p class="powered-by text-center text-sm opacity-80 py-1">
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_na" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox — Open Source</a>.
+      <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
+         href="https://hugoblox.com/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_na" target="_blank" rel="noopener" data-hbx="poweredby_cta">Create your site →</a>
+    </p></footer>
 
     </div>
 
@@ -1647,6 +2733,11 @@
     
 
 
+<div id="hb-notification-container" class="fixed top-20 right-4 z-[9999] pointer-events-none" aria-live="polite" aria-atomic="true"></div>
+
+
+    
+    
 
 
 
@@ -1655,6 +2746,14 @@
 
 
 
+  
 
+
+
+
+
+    
+    
+    
   </body>
 </html>

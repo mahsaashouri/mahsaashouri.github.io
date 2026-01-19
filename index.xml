@@ -7,26 +7,53 @@
     <description>Hugo Academic CV Theme</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
       <title>Hugo Academic CV Theme</title>
       <link>https://example.com/</link>
     </image>
+    
+    <item>
+      <title>Generalized Bayesian additive regression trees for restricted mean survival time inference</title>
+      <link>https://example.com/publication/journal-article7/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing Taiwanese traffic patterns on consecutive holidays through forecast reconciliation and prediction-based anomaly detection techniques</title>
+      <link>https://example.com/publication/journal-article6/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating and testing for actionable treatment effect heterogeneity</title>
+      <link>https://example.com/publication/preprint/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/preprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STA404</title>
+      <link>https://example.com/teaching/sta404/</link>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/teaching/sta404/</guid>
+      <description>&lt;p&gt;
+ Techniques to understand, design, critique, and tell a story about data visualizations.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>STA309</title>
       <link>https://example.com/teaching/sta309/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://example.com/teaching/sta309/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://bulletin.miamioh.edu/courses-instruction/sta/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Description&lt;/a&gt; Techniques for constructing, downloading, cleaning, combining, extracting and manipulating data sets to prepare them for statistical analysis and visualization. Emphasis on programming languages used in data analytics and structured query language.&lt;/p&gt;
+      <description>&lt;p&gt;
+ Techniques for constructing, downloading, cleaning, combining, extracting and manipulating data sets to prepare them for statistical analysis and visualization. Emphasis on programming languages used in data analytics and structured query language.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Generalized Bayesian additive regression trees for restricted mean survival time inference</title>
-      <link>https://example.com/publication/preprint1/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/preprint1/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -54,19 +81,12 @@
     </item>
     
     <item>
-      <title>Analyzing Taiwanese traffic patterns on consecutive holidays through forecast reconciliation and prediction-based anomaly detection techniques</title>
-      <link>https://example.com/publication/preprint/</link>
-      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/preprint/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>BIOSTAT592</title>
       <link>https://example.com/teaching/biostat592/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/teaching/biostat592/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://sph.umich.edu/research-education/courses/course.php?courseID=BIOSTAT592&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Description&lt;/a&gt;: This course is designed to introduce linear regression using multiple variables to predict a continuous outcome. This course emphasizes the application of multiple linear regression to substantive public health problems focusing on interpretation and inference. We use RStudio to analyze public health datasets, evaluate regression assumptions, and assess model fit.&lt;/p&gt;
+      <description>&lt;p&gt;
+: This course is designed to introduce linear regression using multiple variables to predict a continuous outcome. This course emphasizes the application of multiple linear regression to substantive public health problems focusing on interpretation and inference. We use RStudio to analyze public health datasets, evaluate regression assumptions, and assess model fit.&lt;/p&gt;
 </description>
     </item>
     

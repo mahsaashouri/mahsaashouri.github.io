@@ -5,25 +5,33 @@
     <link>https://example.com/publication/</link>
       <atom:link href="https://example.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
       <title>Publications</title>
       <link>https://example.com/publication/</link>
     </image>
     
     <item>
       <title>Generalized Bayesian additive regression trees for restricted mean survival time inference</title>
-      <link>https://example.com/publication/preprint1/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/preprint1/</guid>
+      <link>https://example.com/publication/journal-article7/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analyzing Taiwanese traffic patterns on consecutive holidays through forecast reconciliation and prediction-based anomaly detection techniques</title>
+      <link>https://example.com/publication/journal-article6/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating and testing for actionable treatment effect heterogeneity</title>
       <link>https://example.com/publication/preprint/</link>
-      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://example.com/publication/preprint/</guid>
       <description></description>
     </item>
