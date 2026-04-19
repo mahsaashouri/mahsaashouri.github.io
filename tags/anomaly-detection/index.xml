@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anomaly-Detection | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/anomaly-detection/</link>
+      <atom:link href="https://example.com/tags/anomaly-detection/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anomaly-Detection</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2026 10:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_4bc81f2edf496b34.png</url>
+      <title>Anomaly-Detection</title>
+      <link>https://example.com/tags/anomaly-detection/</link>
+    </image>
+    
+    <item>
+      <title>Linear Forecast Reconciliation: From Hierarchical Time Series to Traffic Anomaly Detection</title>
+      <link>https://example.com/event/asa-cincinnati-2026/</link>
+      <pubDate>Tue, 05 May 2026 10:00:00 -0400</pubDate>
+      <guid>https://example.com/event/asa-cincinnati-2026/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
